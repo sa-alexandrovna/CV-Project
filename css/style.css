@@ -1,0 +1,165 @@
+body {
+	margin: 0;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	color: #40514E;
+}
+
+h1 {
+	color: #66BFBF;
+	font-size: 5.625rem;
+	margin: 50px auto 0 auto;
+	font-family: 'Sacramento', cursive;
+}
+
+h2 {
+	color: #66BFBF;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.5rem;
+	font-weight: normal;
+	padding-bottom: 10px;
+
+}
+
+h3 {
+	color: #11999E;
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+	line-height: 2;
+}
+
+hr {
+	border: dotted #d2e9e9 6px;
+	border-bottom: none;
+	width: 4%;
+	margin: 60px auto;
+}
+
+a {
+	color: #11999E;
+	font-family: 'Montserrat', sans-serif;
+	margin: 10px 20px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #EAF6F6
+}
+
+.top_container {
+	background-color: #E4F9F5;
+	min-width:100%;
+	position: relative;
+	overflow:hidden;
+}
+
+.middle-container {
+	margin: 60px 0;
+	min-width:280px;
+}
+
+.bottom-container {
+	background-color: #66BFBF;
+	padding: 50px 0 20px;
+}
+
+
+.skill-row {
+	width: 60em;
+	margin: 70px auto 70px auto;
+	text-align: left;
+	
+}
+
+.pro {
+	text-decoration: underline;
+}
+
+.intro {
+	width: 60em;
+	margin: auto;
+}
+
+.contact-message {
+	width: 40%;
+	margin: 40px auto 60px;
+}
+
+.copyright {
+	color: #EAF6F6;
+	font-size: 0.75rem;
+	padding: 20px 0;
+}
+
+.top-cloud {
+	position: absolute;
+	right: 300px;
+	top: 40px;
+}
+
+.bottom-cloud {
+	position: absolute;
+	left: 250px;
+	bottom: 300px;
+}
+
+.skills-img {
+	width: 12em;
+	float: left;
+	margin-right: 70px;
+	margin-bottom: 50px;
+}
+
+.tools-img {
+	width: 12em;
+	float: right;
+	margin-left: 50px;
+}
+
+.education {
+	width: 12em;
+	float: left;
+	margin-right: 70px;
+	margin-bottom: 25px;
+}
+
+.btn {
+	background: #11cdd4;
+	background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+	background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+	background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+	background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+	background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+	-webkit-border-radius: 8;
+	-moz-border-radius: 8;
+	border-radius: 8px;
+	font-family: 'Montserrat', sans-serif;
+	;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+}
+
+.btn:hover {
+	background: #30e3cb;
+	background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+	background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+	background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+	background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+	background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+	text-decoration: none;
+}
+
+/* margin - outside of element
+padding - inside of element (distance between text and border); 
+we can center all elements in body if they does not have a width, 
+but if they does we use width + margin 0 auto 0 auto;
+dynamic font size (scale up if user need to) - 100% = 16px = 1em,
+if we want 90px/16px = 562.5% or 90px = 1em = 5.626em.  5.625rem (root em) will be ignoring 
+perents size element (h1 - p);
+clear - can clear any margin/padding size of the text;
+
+*/
