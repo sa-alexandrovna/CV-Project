@@ -152,14 +152,3 @@ a:hover {
 	background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
 	text-decoration: none;
 }
-
-/* margin - outside of element
-padding - inside of element (distance between text and border); 
-we can center all elements in body if they does not have a width, 
-but if they does we use width + margin 0 auto 0 auto;
-dynamic font size (scale up if user need to) - 100% = 16px = 1em,
-if we want 90px/16px = 562.5% or 90px = 1em = 5.626em.  5.625rem (root em) will be ignoring 
-perents size element (h1 - p);
-clear - can clear any margin/padding size of the text;
-
-*/
