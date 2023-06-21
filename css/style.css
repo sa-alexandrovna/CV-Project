@@ -84,7 +84,7 @@ a:hover {
 
 
 .skill-row {
-    width: 50%;
+    width: 70%;
     margin: 100px auto 100px auto;
     text-align: left;
 	
@@ -95,7 +95,7 @@ a:hover {
 }
 
 .intro {
-    width: 40%;
+    width: 50%;
     margin: auto;
 }
 
@@ -106,8 +106,7 @@ a:hover {
 
 .copyright {
 	color: #EAF6F6;
-    font-size: 1.3rem;
-    padding: 30px 0;
+    font-size: 1rem;
 }
 
 .top-cloud {
