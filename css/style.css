@@ -84,7 +84,7 @@ a:hover {
 
 
 .skill-row {
-    width: 60%;
+    width: 55%;
     margin: 100px auto 100px auto;
     text-align: left;
 	
@@ -116,8 +116,8 @@ a:hover {
 }
 
 .char {
-    padding-top: 7%;
-    padding-bottom: 7%;
+    padding-top: 6%;
+    padding-bottom: 6%;
 }
 
 .profile-img {
